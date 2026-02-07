@@ -142,6 +142,19 @@ sample06/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample06.dir/build.make CMakeFiles/sample06.dir/build
 .PHONY : sample06/fast
 
+#=============================================================================
+# Target rules for targets named sample07
+
+# Build rule for target.
+sample07: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sample07
+.PHONY : sample07
+
+# fast build rule for target.
+sample07/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample07.dir/build.make CMakeFiles/sample07.dir/build
+.PHONY : sample07/fast
+
 sample05.o: sample05.cpp.o
 .PHONY : sample05.o
 
@@ -190,6 +203,30 @@ sample06.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample06.dir/build.make CMakeFiles/sample06.dir/sample06.cpp.s
 .PHONY : sample06.cpp.s
 
+sample07.o: sample07.cpp.o
+.PHONY : sample07.o
+
+# target to build an object file
+sample07.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample07.dir/build.make CMakeFiles/sample07.dir/sample07.cpp.o
+.PHONY : sample07.cpp.o
+
+sample07.i: sample07.cpp.i
+.PHONY : sample07.i
+
+# target to preprocess a source file
+sample07.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample07.dir/build.make CMakeFiles/sample07.dir/sample07.cpp.i
+.PHONY : sample07.cpp.i
+
+sample07.s: sample07.cpp.s
+.PHONY : sample07.s
+
+# target to generate assembly for a file
+sample07.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample07.dir/build.make CMakeFiles/sample07.dir/sample07.cpp.s
+.PHONY : sample07.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +237,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sample05"
 	@echo "... sample06"
+	@echo "... sample07"
 	@echo "... sample05.o"
 	@echo "... sample05.i"
 	@echo "... sample05.s"
 	@echo "... sample06.o"
 	@echo "... sample06.i"
 	@echo "... sample06.s"
+	@echo "... sample07.o"
+	@echo "... sample07.i"
+	@echo "... sample07.s"
 .PHONY : help
 
 

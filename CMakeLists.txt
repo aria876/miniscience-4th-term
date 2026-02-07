@@ -5,6 +5,7 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -g")
 project(gmshdemo)
 add_executable(sample05 sample05.cpp)
 add_executable(sample06 sample06.cpp)
+add_executable(sample07 sample07.cpp)
 
 # --- Подключаем gmsh, тут придется перебирать варианты 
 
@@ -29,3 +30,4 @@ set(GMSH_LIBRARIES gmsh)
 # Укажем библиотеки для линковки
 target_link_libraries(sample05 ${GMSH_LIBRARIES})
 target_link_libraries(sample06 ${GMSH_LIBRARIES})
+target_link_libraries(sample07 ${GMSH_LIBRARIES})

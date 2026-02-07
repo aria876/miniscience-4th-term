@@ -1,4 +1,5 @@
 /home/aria/prog4sem/1lab_my_code_git/build/CMakeFiles/sample05.dir
 /home/aria/prog4sem/1lab_my_code_git/build/CMakeFiles/sample06.dir
+/home/aria/prog4sem/1lab_my_code_git/build/CMakeFiles/sample07.dir
 /home/aria/prog4sem/1lab_my_code_git/build/CMakeFiles/edit_cache.dir
 /home/aria/prog4sem/1lab_my_code_git/build/CMakeFiles/rebuild_cache.dir
