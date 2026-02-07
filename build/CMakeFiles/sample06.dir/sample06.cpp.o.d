@@ -1,6 +1,6 @@
 CMakeFiles/sample06.dir/sample06.cpp.o: \
- /home/aria/prog4sem/1lab_my_code/sample06.cpp /usr/include/stdc-predef.h \
- /usr/include/gmsh.h /usr/include/c++/13/cmath \
+ /home/aria/prog4sem/1lab_my_code_git/sample06.cpp \
+ /usr/include/stdc-predef.h /usr/include/gmsh.h /usr/include/c++/13/cmath \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
